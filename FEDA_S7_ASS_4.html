@@ -1,0 +1,89 @@
+<!-- Make a Sample Page with a Menu using Nav at the Top and the Footer as copyright at the
+bottom of the page you can use Glyphicons in bootstrap for copyright image. That form should
+be your Blog. -->
+
+<html>
+	<head>
+		<title>BootStrap</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+		<style>
+			a { outline: none !important; }
+			.navbar-header .navbar-brand {
+					color: #188cef;
+			}
+			.container .tab-content {
+					padding: 60px 0 70px;
+			}
+			#home > p {
+					color: #626262;
+					
+			}
+			.footer {
+					background-color: #f5f5f5;
+					bottom: 0;
+					height: 60px;
+					position: fixed;
+					width: 100%;
+			}
+			.footer .container {
+					color: #aaa;
+					margin: 20px auto;
+					text-align: right;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">My Portfolio</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+					<ul class="nav navbar-nav">
+						<li class="active"><a data-toggle="tab" href="#home">HOME</a></li>
+						<li><a data-toggle="tab" href="#about">ABOUT</a></li>
+						<li><a data-toggle="tab" href="#contact">CONTACT</a></li>
+						<li><a data-toggle="tab" href="#feedback">FEEDBACK</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="col-md-2"></div>
+			<div class="tab-content col-md-8">
+				<div id="home" class="tab-pane fade in active">
+					<h3>Jamshedpur - A city in India uses waste plastic from homes for constructing roads</h3>
+					<p>Disposal of waste plastic is no longer a problem in the steel city with Jamshedpur Utility and Services Company (JUSCO) using bitumen technology on waste plastic, ranging from polybags to biscuit packets, for constructing roads.</p>
+					<img src="https://cdn-images-1.medium.com/max/800/0*3qqHc1WSovUILTLU.jpg" alt="" width="100%"/><br/><br/>
+					<p>JUSCO, a 100 per cent subsidiary company of Tata Steel which maintains and provides municipal services in Tata command area of the city, has constructed 12-15 kms road in the steel city as well as Tata Steel Works besides widening 22 roads using the environment-friendly technology of utilising waste plastic.</p>
+					<p>"As far as we know, Jamshedpur is the only city in eastern India where bitumen technology (Dry Process) patented by Thiagarajar College of Engineering (TCE), Tirupparankuram, Madurai, has been implemented on accumulated waste plastic for the first time", Gaurav Anand, Senior Manager (Quality Assurance) of JUSCO, said.</p>
+					<img src="https://cdn-images-1.medium.com/max/800/1*uRrVRIOwLH6yGdVTWkLosQ.jpeg" alt="" width="100%"/><br/><br/>
+					<p>Claiming that there is no maintenance cost involved for the first five years, Anand, who is an environment engineer, said that for every stretch of such one km long and four metre wide road, one tonne of bitumen costing Rs 50,000 is saved.</p>
+				</div>
+				<div id="about" class="tab-pane fade">
+					<h3>About Us</h3>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div id="contact" class="tab-pane fade">
+					<h3>Contact Us</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				</div>
+				<div id="feedback" class="tab-pane fade">
+					<h3>Feedback</h3>
+					<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<span class="glyphicon glyphicon-copyright-mark"></span> 2016 Copyrights Reserved.
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		
+	</script>
+</html>
